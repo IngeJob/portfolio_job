@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio_job/static/css/main.c68cbc25.css",
+    "main.js": "/portfolio_job/static/js/main.e542accc.js",
+    "static/media/foto_carnet.jpg": "/portfolio_job/static/media/foto_carnet.6f002da463f9a1f572b9.jpg",
+    "static/media/landing_page-restaurant.jpg": "/portfolio_job/static/media/landing_page-restaurant.eac6f85abb78bf7a22d8.jpg",
+    "static/media/movieApp.jpg": "/portfolio_job/static/media/movieApp.b7dc51f24d74f691eb81.jpg",
+    "static/media/webshop.jpg": "/portfolio_job/static/media/webshop.6fa2dea636c414885860.jpg",
+    "static/media/armani.jpg": "/portfolio_job/static/media/armani.a7ac234e708d579a6931.jpg",
+    "static/media/logo2.png": "/portfolio_job/static/media/logo2.55c45a4e6311285f40ee.png",
+    "static/media/react.svg": "/portfolio_job/static/media/react.6a8d0d42a971818688cf704c316cb3f5.svg",
+    "static/media/robophantom.svg": "/portfolio_job/static/media/robophantom.76998d7267a2fe4d31f5.svg",
+    "static/media/redux.svg": "/portfolio_job/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
+    "static/media/sass.svg": "/portfolio_job/static/media/sass.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/mui.svg": "/portfolio_job/static/media/mui.2ada3d336f952a2d9175f2e825cf81ce.svg",
+    "static/media/matlab.svg": "/portfolio_job/static/media/matlab.27c7151ae26a4b76b99ac1186fa9bbbb.svg",
+    "static/media/photoshop.svg": "/portfolio_job/static/media/photoshop.67ff10b1d2305a69ef22448cfc6635d0.svg",
+    "static/media/arduino.svg": "/portfolio_job/static/media/arduino.87c37b3294d6e3d2982901f78c594189.svg",
+    "static/media/javascript.svg": "/portfolio_job/static/media/javascript.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/cursor.cur": "/portfolio_job/static/media/cursor.5723eb83f937dec93d00.cur",
+    "static/media/git.svg": "/portfolio_job/static/media/git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/illustrator.svg": "/portfolio_job/static/media/illustrator.8aa316ba754d1d2f479207885c6fca59.svg",
+    "index.html": "/portfolio_job/index.html",
+    "static/media/typescript.svg": "/portfolio_job/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
+    "static/media/css3.svg": "/portfolio_job/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/html5.svg": "/portfolio_job/static/media/html5.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "main.c68cbc25.css.map": "/portfolio_job/static/css/main.c68cbc25.css.map",
+    "main.e542accc.js.map": "/portfolio_job/static/js/main.e542accc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c68cbc25.css",
+    "static/js/main.e542accc.js"
+  ]
+}
