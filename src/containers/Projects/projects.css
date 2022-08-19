@@ -1,0 +1,7 @@
+.app__projects{
+    background: var(--color-bg);
+}
+
+.app__projects h1{
+    font-size: 35px;
+}

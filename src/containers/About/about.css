@@ -1,0 +1,36 @@
+.app__about{
+    background: var(--color-bg);
+}
+
+.app__about-info{
+    flex: 2;
+}
+
+.app__about-info h1{
+    font-size: 35px;
+    align-self: flex-end;
+}
+
+
+.app__about-photo{
+    border: 8px solid var(--color-footer);
+    border-radius: 5%;
+    margin: 2rem;
+    flex: 0.8;
+    cursor: url('../../assets/logos/react.svg'), auto;
+}
+
+.app__about-photo img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__about{
+    flex-direction: column-reverse;
+    }
+    
+    .app__about-photo{
+        width: 250px;
+    }
+}

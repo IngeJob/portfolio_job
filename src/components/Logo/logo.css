@@ -1,0 +1,53 @@
+.logo__container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+    width: 400px;
+    height: 400px;
+
+    border: 8px solid var(--color-footer);
+    border-radius: 5%;
+}
+
+.logo__container img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.logo_rp{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/robophantom.svg');
+    position: absolute;
+    opacity: 1;
+    animation: fade 6s linear infinite, rotateY 6s infinite linear;
+    z-index: 5;
+}
+
+@keyframes fade {
+    0%,
+    100%,
+    50% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+}
+  
+@keyframes rotateY {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@media screen and (max-width: 930px){
+    .logo__container{
+        display: flex;
+    }
+}

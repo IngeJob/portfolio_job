@@ -1,0 +1,52 @@
+.app__header{
+    background-color: var(--color-bg);
+    margin-top: 10px;
+}
+
+.app__header-info {
+    position: relative;
+    margin-top: 20px;
+}
+
+.app__header-info span{
+    font-size: 2.2rem;
+}
+
+.app__header-info .app__header-name{
+    font-size: 7rem;
+}
+
+.app__header-info p{
+    font-size: 3px;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.app__header-paint{
+    margin-top: 70px;
+    position: relative;
+    width: fit-content;
+    align-items: center !important;
+}
+
+.app__header-paint Canvas{
+    cursor: url('../../assets/cursor.cur'), auto;
+    border: 8px solid var(--color-footer);
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 1150px){
+    .app__header-info{
+        padding-top: 2rem;
+    }
+
+    .app__header-paint{
+        margin-top: 10px;
+    }    
+}
+
+@media screen and (max-width: 650px){
+    .app__header-info{
+        padding-top: 0.5rem;
+    }
+}

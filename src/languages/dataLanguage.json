@@ -1,0 +1,71 @@
+{
+    "es":{
+        "nav": {
+            "item1": "Sobre Mí",
+            "item2": "Proyectos",
+            "item3": "Contacto",
+            "item4": "Inglés",
+            "item5": "Español"
+        },
+        "header": {
+            "greeting": "Hola mundo!",
+            "name": "Soy Job",
+            "about1": "Desarrollador Web Front-End ",
+	        "about2": "e Ingeniero electrónico en control",
+            "board": "Mural para que dibujes lo que quieras!"
+        },
+        "about": {
+            "title": "Sobre mí",
+            "description": "Soy Brayan Job, desarrollador de aplicaciones web, actualmente estoy enfocado en el Front-end, además soy ingeniero electrónico en control y redes industriales por lo que conozco software de ingeniería y de desarrollo web como:"
+        },
+        "projects": {
+            "title": "Proyectos",
+            "button": "Ir a página",
+            "project1": "Landing Page - Restaurante",
+            "project2": "Clone página principal de Armani",
+            "project3": "Comercio electrónico",
+            "project4": "Aplicación de Películas y Series"
+
+        },
+        "contact": {
+            "title": "Contacto"
+        },
+        "footer": {
+            "text": "Página creada por Job, 2022"
+        }
+    },
+    "en":{
+        "nav": {
+            "item1": "About Me",
+            "item2": "Projects",
+            "item3": "Contact",
+            "item4": "English",
+            "item5": "Spanish"
+        },
+        "header": {
+            "greeting": "Hi World!",
+            "name": "I'm Job",
+            "about1": "Front-End Web Developer",
+            "about2": "and Electronic Controls Engineer",
+            "board": "Mural where you can draw what you want!"
+        },
+        "about": {
+            "title": "About Me",
+            "description": "I am Brayan Job,a web application developer, currently focused on the Front-end, I'm also an electronic engineer in control and industrial networks, so I know engineering and web development software such as:"
+        },
+        "projects": {
+            "title": "Projects",
+            "button": "Go to page",
+            "project1": "Landing Page - Restaurant",
+            "project2": "Armani homepage clone",
+            "project3": "ECommerce",
+            "project4": "Movie & Series App"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "footer": {
+            "text": "Website created by Job, 2022"
+        }
+    }
+}

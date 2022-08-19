@@ -1,0 +1,10 @@
+.app__contact{
+    background: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.app__contact h1{
+    font-size: 35px;
+    align-self: flex-end;
+}

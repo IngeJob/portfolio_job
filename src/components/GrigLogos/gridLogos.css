@@ -1,0 +1,35 @@
+.containerLogos{
+    display: grid;
+    width: 100%;
+    margin-top: 1rem;
+
+    grid-auto-rows: 105px;
+    grid-template-columns: repeat(auto-fit, minmax(129px, 1fr));
+}
+
+.containerLogos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-size: 15px;
+}
+
+.containerLogos div p{
+    font-size: 15px;
+}
+
+.containerLogos div img{
+    max-width: 80px;  
+    height: 100%;
+}
+
+.containerLogos div:nth-child(7),
+.containerLogos div:nth-child(13){
+    padding-top: 0.5rem;
+}
+
+.containerLogos div:nth-child(14){
+    padding-top: 1.8rem;
+}

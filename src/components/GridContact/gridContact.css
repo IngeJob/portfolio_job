@@ -1,0 +1,33 @@
+.grid__contact-container{
+    display: grid;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-between;
+
+    grid-auto-rows: 180px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.grid__contact-container a{
+    margin: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+}
+
+.grid__contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0.5rem;
+    
+}
+
+.grid__contact-card svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.5rem;
+}
+
+a:hover .grid__contact-card svg{
+    transform: scale(1.2)
+}

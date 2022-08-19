@@ -1,0 +1,29 @@
+{
+    "nav": {
+        "item1": "Sobre Mí",
+        "item2": "Proyectos",
+        "item3": "Contacto",
+        "item4": "Inglés",
+        "item5": "Español"
+    },
+    "header": {
+        "greeting": "Hola mundo!",
+        "name": "Soy Job",
+        "about": "Desarrollador Web Front-End e Ingeniero electrónico en control",
+        "board": "Mural para que dibujes lo que quieras"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "description": "Soy Brayan Job, desarrollador de aplicaciones web, actualmente estoy enfocado en el Front-end, además soy ingeniero electrónico en control y redes industriales por lo que conozco software de ingeniería y de desarrollo web como:"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "button": "Ir a página"
+    },
+    "contact": {
+        "title": "Contacto"
+    },
+    "footer": {
+        "text": "Página creada por Job, 2022"
+    }
+}
