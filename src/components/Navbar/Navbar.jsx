@@ -46,9 +46,9 @@ const Navbar = () => {
           {toggleMenu &&(
           <div className='app__navbar-smallScreen_container'>
             <ul className='app__navbar-links'>
-              <li className='p__title'><a href='#about'>{textData.nav.item1}</a></li>
-              <li className='p__title'><a href='#projects'>{textData.nav.item2}</a></li>
-              <li className='p__title'><a href='#contact'>{textData.nav.item3}</a></li>
+              <li className='p__title'><a href='#about' onClick={()=>setToggleMenu(false)}>{textData.nav.item1}</a></li>
+              <li className='p__title'><a href='#projects' onClick={()=>setToggleMenu(false)}>{textData.nav.item2}</a></li>
+              <li className='p__title'><a href='#contact' onClick={()=>setToggleMenu(false)}>{textData.nav.item3}</a></li>
               <div />
               <li className='p__title' onClick={switchEn}>{textData.nav.item4}</li>
               <p className='p__title'>/</p>
