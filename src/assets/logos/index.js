@@ -1,5 +1,6 @@
 import arduino from './arduino.svg';
 import css3 from './css3.svg';
+import figma from './figma.svg'
 import git from './git.svg';
 import html5 from './html5.svg';
 import illustrator from './illustrator.svg';
@@ -13,11 +14,14 @@ import redux from './redux.svg'
 import sass from './sass.svg'
 import schneider from './schneider_twidoSuite.png';
 import siemens from './siemens.png';
-import typescript from './typescript.svg'
+import typescript from './typescript.svg';
+import nodejs from './nodejs.svg';
+import mongodb from './mongodb.svg';
 
 export{
     arduino,
     css3,
+    figma,
     git,
     html5,
     illustrator,
@@ -32,4 +36,6 @@ export{
     schneider,
     siemens,
     typescript,
+    nodejs,
+    mongodb,
 }

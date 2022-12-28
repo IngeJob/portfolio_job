@@ -1,5 +1,5 @@
 .section__padding {
-    padding: 4rem 6rem;
+    padding: 2rem 4rem;
 }
   
 .flex__center {
@@ -12,8 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  min-height: 100vh;
 }
 
 .app__wrapper_info {
@@ -76,16 +74,10 @@
       flex-direction: column;
     }
 }
-  
-@media screen and (max-width: 850px) {
-    .section__padding {
-      padding: 4rem;
-    }
-}
-  
+    
  @media screen and (max-width: 650px) {
     .section__padding {
-      padding: 4rem 2rem;
+      padding: 2rem;
     }
     
     .p__title {
@@ -103,7 +95,7 @@
     }
   
     .p__text {
-      font-size: 19px;
+      font-size: 12px;
     }
 }
   

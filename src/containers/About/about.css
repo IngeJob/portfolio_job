@@ -11,6 +11,9 @@
     align-self: flex-end;
 }
 
+.app__about-title{
+    margin-bottom: 1rem;
+}
 
 .app__about-photo{
     border: 8px solid var(--color-footer);

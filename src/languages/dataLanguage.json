@@ -10,8 +10,8 @@
         "header": {
             "greeting": "Hola mundo!",
             "name": "Soy Job",
-            "about1": "Desarrollador Web Front-End ",
-	        "about2": "e Ingeniero electrónico en control",
+            "about1": "Desarrollador Web Frontend ",
+	        "about2": "e Ingeniero electrónico",
             "board": "Mural para que dibujes lo que quieras!"
         },
         "about": {
@@ -20,11 +20,15 @@
         },
         "projects": {
             "title": "Proyectos",
-            "button": "Ir a página",
-            "project1": "Landing Page - Restaurante",
-            "project2": "Clone página principal de Armani",
-            "project3": "Comercio electrónico",
-            "project4": "Aplicación de Películas y Series"
+            "button": "Ir a la página",
+            "project1": "ECommerce que permite realizar pedidos y entregas de productos de una cafetería, cuenta con menú, carrito de compras, además del registro de usuarios, establecer la dirección de entrega y ver en tiempo real la ubicación del repartidor en el mapa (en desarrollo).",
+            "project2": "ECommerce de una pizzería con video promocional de fondo, sección de 'Nosotros', ubicación del establecimiento en el mapa, menú de productos y promociones, además de carrito de compras",
+            "project3": "Página landing elegante de un restaurante con sección de nosotros, menú, premios y contactos, también cuenta con video promocional y ubicación del lugar en google maps",
+            "project4": "Página landing sofisticada de una empresa de domótica con sección de nuetra empresa, soluciones, servicios, blog y contacto",
+            "project5": "ECommerce de una tienda con páginas de inicio, tienda, nuestra emprea y contato, tambien cuenta con su carrito de compras",
+            "project6": "Página de búsqueda de películas y series según una palabra o frase ingresada",
+            "project7": "Clone de la página principal de la tienda en línea de Armani",
+            "project8": "Parte del equipo frontend que desarrollo un página de delivery con productos ordenados por categoría y permite la búsqueda de ellos, cuenta con registro de usuarios y carrito de compras"
 
         },
         "contact": {
@@ -45,8 +49,8 @@
         "header": {
             "greeting": "Hi World!",
             "name": "I'm Job",
-            "about1": "Front-End Web Developer",
-            "about2": "and Electronic Controls Engineer",
+            "about1": "Frontend Web Developer",
+            "about2": "and Electronic Engineer",
             "board": "Mural where you can draw what you want!"
         },
         "about": {
@@ -56,10 +60,14 @@
         "projects": {
             "title": "Projects",
             "button": "Go to page",
-            "project1": "Landing Page - Restaurant",
-            "project2": "Armani homepage clone",
-            "project3": "ECommerce",
-            "project4": "Movie & Series App"
+            "project1": "ECommerce allows you to order and deliver products from a cafeteria, with a menu and a shopping cart; in addition to user registration, set a delivery address and see the delivery man's location on the map in real-time (under development).",
+            "project2": "ECommerce of a pizzeria with a background promotional video, 'About Us' section, location of establishment on map, a menu of products and promotions, plus a shopping cart",
+            "project3": "The elegant landing page of a restaurant with about us, menu, awards and contact sections; it also has a promotional video and location of the place on google maps",
+            "project4": "The sophisticated landing page of a home automation company with about our company, solutions, services, blog and contact sections",
+            "project5": "ECommerce of a store with home, store, our company and contact pages, with a banner of images on the main page and a shopping cart.",
+            "project6": "Search page for movies and series based on a word or phrase entered.",
+            "project7": "Clone of Armani's online store homepage",
+            "project8": "Part of the frontend team that developed a delivery page with products sorted by category and searchable, with user registration and a shopping cart."
         },
         "contact": {
             "title": "Contact"

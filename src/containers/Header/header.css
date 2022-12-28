@@ -1,6 +1,7 @@
 .app__header{
     background-color: var(--color-bg);
     margin-top: 10px;
+    height: 100vh
 }
 
 .app__header-info {
@@ -29,10 +30,19 @@
     align-items: center !important;
 }
 
-.app__header-paint Canvas{
-    cursor: url('../../assets/cursor.cur'), auto;
-    border: 8px solid var(--color-footer);
-    border-radius: 5%;
+.app__header-video{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    position: relative;
+    width: fit-content;
+    align-items: center !important;
+    border: 10px solid var(--color-footer);
+    padding: 0.3rem;
+}
+
+video{
+    width: 100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1150px){
@@ -42,11 +52,27 @@
 
     .app__header-paint{
         margin-top: 10px;
-    }    
+    }  
+    
+    .app__header{
+        height: 100%;
+    }
+
+    .app__header-video{
+        margin-left:0
+    }
+
+    video{
+        width: 25rem;
+    }
 }
 
 @media screen and (max-width: 650px){
     .app__header-info{
         padding-top: 0.5rem;
+    }
+
+    video{
+        width: 13rem;
     }
 }

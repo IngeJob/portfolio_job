@@ -1,19 +1,14 @@
 .logo__container{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     
     width: 350px;
     height: 350px;
+    margin-right: 2rem;
 
     border: 8px solid var(--color-footer);
     border-radius: 5%;
-}
-
-.logo__container img{
-    width: 200px;
-    height: 200px;
-    position: absolute;
 }
 
 .logo_rp{
@@ -46,8 +41,19 @@
     }
 }
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 1150px) {
     .logo__container{
-        display: flex;
+        margin-right: 0;
     }
+}
+
+@media screen and (max-width: 450px) {
+    .logo__container{
+        width: 280px;
+        height: 280px;
+    }
+
+    .logo_rp{
+        height: 260px;
+    }  
 }

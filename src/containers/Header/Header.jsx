@@ -2,9 +2,8 @@ import { useContext } from 'react';
 import LanguageContext from '../../Context/LanguageContext';
 
 import AnimatedBg from '../../components/Animated_bg/AnimatedBg';
-import Canvas from '../../components/Canvas/Canvas';
 import './header.css';
-import Logo from '../../components/Logo/Logo';
+import catVideo from '../../assets/cat.mp4'
 
 const Header = () => {
   const { textData } = useContext(LanguageContext);
@@ -20,9 +19,13 @@ const Header = () => {
         <span className='app__header-text p__text'>{textData.header.about2}</span>
       </div>
 
-      <div className='app__header-paint app__wrapper_info'>
-        <Canvas />   
-        <Logo />   
+      <div className='app__header-video app__wrapper_info'>
+        <video muted autoPlay loop playsInline>
+          <source 
+            src={catVideo}
+            type="video/mp4"
+          />
+        </video>
       </div>
     </section>
   )

@@ -1,5 +1,5 @@
 import { arduino, css3,  git,  html5,  illustrator,  javascript, matlab,  mui,
-      photoshop,  proteus,  react,  schneider,  siemens, typescript } from '../../assets/logos'
+      photoshop,  proteus,  react,  schneider,  siemens, typescript, figma } from '../../assets/logos'
 import './gridLogos.css';
 
 const GridLogos = () => {
@@ -32,6 +32,10 @@ const GridLogos = () => {
             <div>
               <img src={mui} alt="mui" />
               <p className='p__text'>Material UI</p>
+            </div>
+            <div>
+              <img src={figma} alt="figma" />
+              <p className='p__text'>Figma</p>
             </div>
             <div>
               <img src={illustrator} alt="illustrator" />

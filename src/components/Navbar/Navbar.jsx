@@ -22,6 +22,10 @@ const Navbar = () => {
       prevScrollpos = currentScrollPos;
     }
 
+    const closeHamb = () => {
+      setToggleMenu(false)
+    }
+
     return(
       <nav className={hide ? 'app__navbar app__navbar-hide' : 'app__navbar'}>
         <div className='app__navbar-logo'>
@@ -31,22 +35,22 @@ const Navbar = () => {
           <ul className='app__navbar-links'>
             <li className='p__title'><a href='#about'>{textData.nav.item1}</a></li>
             <li className='p__title'><a href='#projects'>{textData.nav.item2}</a></li>
-            <li className='p__title'><a href='#contact'>{textData.nav.item3}</a></li>
+            <li className='p__title mr-link'><a href='#contact'>{textData.nav.item3}</a></li>
             <div />
-            <li className='p__title' onClick={switchEn}>{textData.nav.item4}</li>
+            <li className='p__title mr-link' onClick={switchEn}>{textData.nav.item4}</li>
             <p className='p__title'>/</p>
-            <li className='p__title' onClick={switchEs}>{textData.nav.item5}</li>
+            <li className='p__title last-link' onClick={switchEs}>{textData.nav.item5}</li>
           </ul>
         </div>       
         <div className='app__navbar-smallScreen'>
           {toggleMenu
-          ? <RiCloseLine color='fff' size={27} onClick={()=>setToggleMenu(false)}/>
-          : <RiMenu3Line color='fff' size={27} onClick={()=>setToggleMenu(true)}/>
+          ? <RiCloseLine color='fff' size={40} onClick={()=>setToggleMenu(false)}/>
+          : <RiMenu3Line color='fff' size={40} onClick={()=>setToggleMenu(true)}/>
           } 
           {toggleMenu &&(
           <div className='app__navbar-smallScreen_container'>
             <ul className='app__navbar-links'>
-              <li className='p__title'><a href='#about' onClick={()=>setToggleMenu(false)}>{textData.nav.item1}</a></li>
+              <li className='p__title'><a href='#about' onClick={closeHamb}>{textData.nav.item1}</a></li>
               <li className='p__title'><a href='#projects' onClick={()=>setToggleMenu(false)}>{textData.nav.item2}</a></li>
               <li className='p__title'><a href='#contact' onClick={()=>setToggleMenu(false)}>{textData.nav.item3}</a></li>
               <div />

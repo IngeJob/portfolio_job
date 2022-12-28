@@ -1,9 +1,9 @@
 .container-bg{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     left: 0rem;
     bottom: -100px;
 }

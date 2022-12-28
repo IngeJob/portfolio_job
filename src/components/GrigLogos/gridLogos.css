@@ -22,7 +22,7 @@
 
 .containerLogos div img{
     max-width: 80px;  
-    height: 100%;
+    height: 80%;
 }
 
 .containerLogos div:nth-child(7),
