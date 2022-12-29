@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_job/static/css/main.783a7d9c.css",
-    "main.js": "/portfolio_job/static/js/main.fd31f2cd.js",
+    "main.js": "/portfolio_job/static/js/main.cef1616b.js",
     "static/media/landing_page-restaurant.jpg": "/portfolio_job/static/media/landing_page-restaurant.eac6f85abb78bf7a22d8.jpg",
     "static/media/pizza_house.jpg": "/portfolio_job/static/media/pizza_house.f085ed7fc464b6487a22.jpg",
     "static/media/delivery_food.jpg": "/portfolio_job/static/media/delivery_food.3b4ddb0cc7034e5e6cf2.jpg",
@@ -31,10 +31,10 @@
     "static/media/css3.svg": "/portfolio_job/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html5.svg": "/portfolio_job/static/media/html5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.783a7d9c.css.map": "/portfolio_job/static/css/main.783a7d9c.css.map",
-    "main.fd31f2cd.js.map": "/portfolio_job/static/js/main.fd31f2cd.js.map"
+    "main.cef1616b.js.map": "/portfolio_job/static/js/main.cef1616b.js.map"
   },
   "entrypoints": [
     "static/css/main.783a7d9c.css",
-    "static/js/main.fd31f2cd.js"
+    "static/js/main.cef1616b.js"
   ]
 }
