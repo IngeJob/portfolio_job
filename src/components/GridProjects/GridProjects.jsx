@@ -31,7 +31,7 @@ const GridProjects = () => {
                     <img src={mongodb} alt='mongodb' />
                 </div>
                 <div className='button__hover'>
-                    <a className='custom__button' href='https://coffe-street.vercel.app/home' target='_blank' rel="noreferrer" >{textData.projects.button}</a>
+                    <a className='custom__button' href='https://cafe-street.vercel.app/home' target='_blank' rel="noreferrer" >{textData.projects.button}</a>
                     <a className='custom__button' href='https://github.com/IngeJob/coffee_street' target='_blank' rel="noreferrer" >Github</a>
                 </div>
             </div>
