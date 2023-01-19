@@ -51,8 +51,8 @@ const GridProjects = () => {
                     <img src={typescript} alt='typescript' />
                 </div>
                 <div className='button__hover'>
-                    <a className='custom__button' href='https://ingejob.github.io/restaurant-website/' target='_blank' rel="noreferrer" >{textData.projects.button}</a>
-                    <a className='custom__button' href='https://github.com/IngeJob/restaurant-website' target='_blank' rel="noreferrer" >Github</a>
+                    <a className='custom__button' href='https://ingejob.github.io/pizzeria_ecommerce/' target='_blank' rel="noreferrer" >{textData.projects.button}</a>
+                    <a className='custom__button' href='https://github.com/IngeJob/pizzeria_ecommerce' target='_blank' rel="noreferrer" >Github</a>
                 </div>
             </div>
         </div>
